@@ -1,0 +1,27 @@
+.nature {
+  display: flex;
+  background-color: #6889A5;
+  color: #FFFFFF;
+}
+.nature__conteiner {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.nature__subtitle {
+  text-transform: uppercase;
+  width: 120px;
+  font-size: 13px;
+}
+.nature__title {
+  width: 247px;
+  font-size: 48px;
+}
+.nature__text-conteiner {
+  width: 376px;
+  margin-top: 63px;
+  font-size: 16px;
+}
+.nature__igm {
+  width: 50%;
+}/*# sourceMappingURL=nature.css.map */

@@ -1,0 +1,33 @@
+.nature {
+    display: flex;
+    background-color: #6889A5;
+    color: #FFFFFF;
+    &__conteiner {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+      }
+      
+      &__subtitle {
+        text-transform: uppercase;
+        width: 120px;
+        font-size: 13px;
+      }
+      
+      &__title {
+        width: 247px;
+        font-size: 48px;
+      }
+      
+      &__text-conteiner {
+        width: 376px;
+        margin-top: 63px;
+        font-size: 16px;
+      }
+      
+      &__igm {
+        width: 50%;
+      }
+    
+  }
+  
