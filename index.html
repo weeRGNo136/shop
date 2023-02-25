@@ -14,12 +14,29 @@
     <header class="header">
         <img class="header__img" src="images/logo.svg" alt="">
         <h2 class="title">Women Men </h2>
-        <nav>
+        <nav class="nav">
             <a class="nav_link" href="#">Our Heritage</a>
             <a class="nav_link" href="#">Care</a>
             <a class="nav_link" href="#">Collections</a>
             <a class="nav_link" href="#">Responsibility</a>
         </nav>
+            
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+<nav></nav>
+            <ul class="menu__box">
+                <li><a class="menu__item" href="#">Our Heritage</a></li>
+                <li><a class="menu__item" href="#">Care</a></li>
+                <li><a class="menu__item" href="#">Collections</a></li>
+                <li><a class="menu__item" href="#">Responsibility</a></li>
+                <li><a class="menu__item" href="#">More</a></li>
+            </ul>
+        </nav>
+        </div>
+    
     </header>
     <section class="nature">
         <div class="nature__conteiner">
@@ -38,7 +55,9 @@
                 </p>
             </div>
         </div>
+        <div class="nature__images">
         <img src="images/nature_people.jpg" alt="" class="nature__igm">
+    </div>
     </section>
 
     <section class="best">
@@ -208,6 +227,7 @@
             </p>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -31,6 +31,7 @@
   font-size: 16px;
   line-height: 24px;
   color: #2D1E1E;
+  cursor: default;
 }
 
 .best__text-made {
@@ -56,4 +57,10 @@
   text-align: center;
   text-transform: uppercase;
   color: #2D1E1E;
+}
+
+@media (max-width: 360.98px) {
+  best__title {
+    font-size: 17px;
+  }
 }/*# sourceMappingURL=best.css.map */

@@ -4,7 +4,7 @@
   color: #FFFFFF;
 }
 .nature__conteiner {
-  width: 50%;
+  padding: 15px;
   display: flex;
   justify-content: center;
 }
@@ -16,6 +16,7 @@
 .nature__title {
   width: 247px;
   font-size: 48px;
+  cursor: default;
 }
 .nature__text-conteiner {
   width: 376px;
@@ -23,5 +24,35 @@
   font-size: 16px;
 }
 .nature__igm {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
   width: 50%;
+}
+.nature__images {
+  width: 100%;
+}
+
+@media (max-width: 575.98px) {
+  .header {
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 10px;
+    height: auto;
+  }
+  .header__title {
+    margin: 0;
+  }
+  .header__img {
+    height: 16px;
+  }
+}
+@media (max-width: 360.98px) {
+  .nature__conteiner {
+    width: 0;
+  }
+  .nature__images {
+    display: none;
+  }
 }/*# sourceMappingURL=nature.css.map */
