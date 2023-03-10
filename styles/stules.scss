@@ -101,7 +101,7 @@ body{
     background-size: cover;
     background-position: center;
 
-    height: 600px;
+  
     background-image: url(../images/sity.png);
 }
 .wool__text{
@@ -318,3 +318,14 @@ font-size: 30px;
 
   
 }
+@media (max-width: 360.98px) {
+    .below__section{
+      display: flex;
+      flex-direction: column;
+    }
+    .wool__text{
+        margin-right: 0;
+    }
+  }
+
+ 

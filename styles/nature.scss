@@ -24,7 +24,7 @@
   }
 
   &__text-conteiner {
-    width: 376px;
+max-width: 376px;
     margin-top: 63px;
     font-size: 16px;
   }
@@ -48,7 +48,7 @@ width: 50%;
 
 @media (max-width: 575.98px) {
   .header {
-    flex-direction: column;
+
     gap: 5px;
     padding-top: 10px;
     height: auto;
@@ -65,7 +65,8 @@ width: 50%;
 }
 @media (max-width: 360.98px){
 .nature__conteiner{
-  width:0;
+
+  display: block;
 }
 .nature__images {
   display: none;
